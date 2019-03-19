@@ -1,0 +1,190 @@
+all:"CLEAR"
+dialogue_name:"Natsuki"
+
+initial_settings:{"Tsun":"0", "FedUpAuto":"0", "TrueLove":"0"}
+
+intro:"[NORMAL_MOOD][LOOK_UP]I still can't believe you ended up convincing me to do this.[reluctant1]"
+reluctant1:"Are you sure nothing's going to go wrong with this*, YOU*?[reluctant2]"
+reluctant2:"[ANGRY_MOOD][LOOK_DOWN]Yeah...  well, I'm not at all totally excited to get started..." 
+reluctant3: "...so you better just get it over with, idiot!"{"set": {"Tsun":"+1"}}
+intro:"[ANGRY_MOOD][BLINK]So...  What are we waiting for?  Don't tell me, NOW somebody's apprehensive, huh?[appre1]"
+appre1:"Well, I've been waiting for this, so don't you dare drop out on me now![appre2]"
+appre2:"[NORMAL_MOOD]W-waiting to get it over with, I mean.  [ANGRY_MOOD]Don't get the wrong idea.  This doesn't mean I like you or something!"{"set": {"Tsun":"+1"}}
+intro:"[HAPPY_MOOD]*YOU, *I...  I'm excited to try this out.[excite1]"
+excite1:"[ANGRY_MOOD]Not because of you, dummy, so stop smiling so much![excite2]"
+excite2:"[NORMAL_MOOD][ARMS_HIS_LEGS]Ok, maybe a little...[excite3]"
+excite3:"[ANGRY_MOOD][ARMS_LEGS]Still, don't let it get to that hot air head of yours!"{"set": {"Tsun":"+1"}}
+
+general:"[ANGRY_MOOD]Well, are you just waiting for me to do it myself?  Get the lead out, dummy!"
+general:"[ANGRY_MOOD]Y-you aren't making me wait and stare at this thing to turn me on, a-are you?  You perv!"
+general:"[LOOK_UP][ANGRY_MOOD]What, are you taking the time to look in my eyes or something?[eyes1]"
+eyes1:"[HAPPY_MOOD]I mean, to be honest, it's kind of romantic if you are...[eyes2]"
+eyes2:"[ANGRY_MOOD]F-For a baka like you, that's romantic!  Now, come on![LOOK_DOWN]"{"set":{"TrueLove":"+1"}}
+general:"[AHEGAO_MOOD]Come on, I'm waitiiiing~"{"check": {"TrueLove":"7"}}
+general:"[generic1]"
+general:"[generic2]"{"check": {"Tsun":"5"}}
+general:"[generic3]"{"check":{"TrueLove":"7"}}
+
+lick_penis:"[LOOK_DOWN]Haaah..."{"style":"thought"}
+lick_penis:"Mmm..."{"style":"thought"}
+lick_penis:"Nnnng..."{"style":"thought"}
+lick_penis:"Mmmph..."{"style":"thought"}
+lick_penis:"It tastes so..."{"style":"thought"}
+
+pull_off:"[CLOSE_EYES][COUGH]C-c'mon!  Is that the best you've got?  [OPEN_EYES]"
+pull_off:"[ANGRY_MOOD]I hope you're enjoying this.[more1]"
+more1:"I'm...  not enjoying this, if that's what you're thinking.  So don't keep going just like that."
+pull_off:"[generic1]"
+pull_off:"Mmmm, I love this.  I love how happy it makes you!"{"check": {"Tsun":"5"}}
+pull_off:"[COUGH][COUGH]More!  God, please, more!"{"check": {"TrueLove":"7"}}
+pull_off:"[generic1]"
+
+wake:"[OPEN_EYES][SHOCK]Wh?  What the hell?  [ANGRY_MOOD]What happened?"{"check": {"Tsun":"5"}}
+wake:"[OPEN_EYES][ANGRY_MOOD]What the hell did you do*, YOU*, you little...!"
+wake:"[OPEN_EYES]You choked me with that thing...  that's kinda hot..."
+
+first_dt:"[CLOSE_EYES]Ouch!  [ANGRY_MOOD]He didn't tell me it'd be this rough, that jerk![OPEN_EYES]"{"style":"thought"}}
+first_dt:"Owch!"{"style":"thought"}}
+first_dt:"Ugh!  What the hell!"{"style":"thought"}}
+first_dt:"[WINCE]It's okay, Nat, be strong..."{"style":"thought"}}
+
+first_throat:"[HAPPY_MOOD]I'm good at this, aren't I?  I knew I would be!"
+first_throat:"Ahh~"
+first_throat:"[generic1]"
+
+held:"[ANGRY_MOOD]L-let me breathe, jeez!"
+held:"[ANGRY_MOOD]This isn't a cupcake, don't keep it shoved so far down my throat!"
+held:"I-I hate this...  but it's for you, so I guess I'll live!"{"check": {"Tsun":"5"}}
+held:"God..."{"check": {"Tsun":"5"}}
+held:"I'm so happy about this..."{"check": {"TrueLove":"7"}}
+held:"Please*, YOU*, choke me more!"{"check": {"TrueLove":"7"}}
+
+hand_job_stroke:"[LOOK_UP]Are you really enjoying this?[hand2]"
+hand2:"Nah, I'm way better at it.[hand3]"{"style":"Him"}
+hand3:"What, are you saying I'm bad at it or something?  Don't you challenge me!"
+hand_job_stroke:"[generic2]"{"check": {"Tsun":"5"}}
+
+hand_job_stroke:"[LOOK_UP][ANGRY_MOOD]This is so demeaning..."{"set": {"Tsun":"+1"}}
+hand_job_stroke:"[LOOK_UP][HAPPY_MOOD]If this is what you want, I'm happy!"{"check": {"Tsun":"5"}{"set":{"TrueLove":"+1"}}}
+hand_job_stroke:"[LOOK_UP][AHEGAO_MOOD]So pointless...  my mouth'd be way better..."{"check":{"TrueLove":"7"}}
+
+restart:"[HAPPY_MOOD] Again?  Well, for you, why not?"{"check": {"Tsun":"5"}}
+restart:"[ANGRY_MOOD] Again?  How much of this stuff have you got in you?"
+restart:"[NORMAL_MOOD] Well, here we go again..."{"set":{"TrueLove":"+1"}}
+restart:"[AHEGAO_MOOD] Ah god yes, more..."{"check":{"TrueLove":"7"}}
+
+resistance:"[NORMAL_MOOD][WINCE] Fuck...  it's so much..."
+resistance:"[NORMAL_MOOD][WINCE] It's so fucking big, babe..."
+resistance:"[ANGRY_MOOD] Did you have to be born this... big?  There's only so much my throat can handle..."
+resistance:"[ANGRY_MOOD] Fuck...  why's it gotta be this thick, and hard, and massive, and..."
+resistance:"[AHEGAO_MOOD] It's so difficult to get it all in my mouth at once, but I want it all..."{"check":{"TrueLove":"7"}}
+resistance:"[AHEGAO_MOOD] God, shove it all down, please..."{"check":{"TrueLove":"7"}}
+resistance:"[HAPPY_MOOD] I still can't believe I'm having such a tough time with this..."{"check": {"Tsun":"5"}}
+resistance:"[HAPPY_MOOD] It's kinda hard to get down..."{"check": {"Tsun":"5"}}
+resistance:"[generic1]"
+resistance:"[generic2]"{"check": {"Tsun":"5"}}
+resistance:"[generic3]"{"check":{"TrueLove":"7"}}
+
+pre_cum:"Wow, someone's a quickshot..."{"style":"thought"}
+pre_cum:"I-it's throbbing, what the hell?"{"style":"thought"}
+pre_cum:"Aww, is the fun over now?"{"style":"thought"}
+pre_cum:"I wonder if your cum tastes good..."{"style":"thought"}
+
+vigourous:"Oh dear GOD, YES!"{"style":"thought"}{"check":{"TrueLove":"7"}}
+vigourous:"[SHOCK]DUDE, my fucking throat!"{"style":"thought"}
+vigourous:"[generic1]"
+
+cum: "Ah!"
+cum: "Oh, wow![cum1]"
+cum: "Agck![cum2]"
+cum: "Woah![cum3]"
+cum1: "[CLOSE_EYES]Well, that really was quick...[OPEN_EYES]"
+quick1:"Quick?  What's that meant to mean?"{"style":"Him"}
+quick2:"[HAPPY_MOOD]What do you think \"quick\" means, silly?"{"set":{"tsun":"+1"}
+cum1:"You certainly don't get out much, do you?"{"set":{"tsun":"+1"}
+cum1:"And I thought a loser like you would masturbate too much to have so much cum!"
+cum2:"Did it have to be this much?"
+cum2:"I didn't sign up for this much fluid!"
+cum2:"[SHOCK]What are you, a fire hose?[cum3]"
+cum3:"[HAPPY_MOOD][CLOSE_EYES]I guess I'm just that good at this, huh?[OPEN_EYES]"{"check": {"Tsun":"5"}, "set":{"truelove":"+1"}
+cum3:"Hehe, No need to thank me, although it'd be appreciated.[thank1]"
+thank1:"Yeah, thank you.[thank2]"{"style":"Him"}
+thank2:"I didn't a-actually mean to thank me, dummy!  You're such a geek!"
+
+cum_in_mouth:"Ack!  Why does it taste like that?"
+cum_in_mouth:"Should I swallow it?"
+cum_in_mouth:"Yuck!"
+cum_in_mouth:"God, yes!"{"check":{"TrueLove":"7"}}
+
+cum_on_face:"God, mark me as yours!"{"check":{"TrueLove":"7"}}
+cum_on_face:"For your sake, I hope this washes out!"
+cum_on_face:"[cum]"
+
+finish1:"once"
+finish2:"twice"
+finish3:"three times"
+finish4:"four times"
+finish5:"five times"
+finish6:"six times"
+finish7:"seven times"
+finish8:"eight times"
+finish9:"nine times"
+finish10:"ten times"
+finishOther:"too many times"
+
+interrupt:"-Mgh!"
+interrupt:"-Mff!"
+interrupt:"-Nngh!"
+interrupt:"-Mmbh!"
+interrupt:"-Mnh!"
+interrupt:"-Hrk!"
+interrupt:"-Hrk!"
+cough:"-Aghck!"
+cough:"-Ack!"
+cough:"-Ackph!"
+cough:"-Agph!"
+
+generic1:"God, you're so hard, it's almost pathetic!"
+generic1:"Feels good, doesn't it?  I know, I'm great at this!"
+generic1:"Is this what you're imagining when you're jerking off, alone in your room?"
+generic1:"It's like a popsicle, but significantly worse.[joke1]" 
+joke1:"...and I don't even get a corny joke on the stick for my efforts.[joke2]"
+joke2:"Y'know,I could just tell one.  All you've gotta do is ask.[joke3]"{"style":"Him"}
+joke3:"Tell you what.  Refrain from the jokes, and I'll be so thankful, I'll suck your dick."
+generic1:"You sure are taking pleasure in this.  You some kind of virgin?[v1]"
+v1:"What, you aren't?[v2]"{"style":"Him"}
+v2:"Do cucumbers count?[v3]"
+v3:"Wait, what?[v4]"{"style":"Him"}
+v4:"Nevermind!  Nevermind..."
+generic1:"So, how many hentai doujins have you read to be this good?[doujin1]"{"style":"Him"}
+doujin1:"None of your damn business![doujin2]"
+doujin2:"Well, I wouldn't mind some recommendations..."{"style":"Him"}
+doujin3:"You're such a pervert!"
+doujin4:"Yeah, suck my dick!  Oh, wait..."{"style":"Him"}
+generic1:"This taste...  it's really weird*, YOU*."
+generic1:"Hey, how about a titjob after this, flattie?[flat1]"{"style":"Him"}
+flat1:"[ANGRY_MOOD]Hey, how about I bite down and start chewing like I'm eating a well done steak?"
+flat2:"S-sorry, ma'am!  You're great and your chest is totally supple!  P-please don't..."{"style":"Him"}
+generic1:"T-this taste...  I love it...  or I would!  If I was a whore!  Which I'm not!"
+generic1:"Not like I was enjoying that or anything...!"
+
+generic2:"[HAPPY_MOOD]Does that feel nice?  I hope it does!"
+generic2:"[HAPPY_MOOD]I'm so glad I'm the one you chose..."
+generic2:"[HAPPY_MOOD]We should read some Hentai together sometime.  It'd be really hot, wouldn't it?"
+generic2:"God, there's so much I wanna do with this..."
+generic2:"[HAPPY_MOOD]Heheh!  You're so cute when you're moaning![moan]"
+moan:"You're cute too, Natsuki![moan2]"{"style":"Him"}
+moan2:"[ANGRY_MOOD]WHAAA?  I'M NOT CUUUUTE!"
+generic2:"Finally, a girl can get something good to eat!"
+generic2:"And I was told this process was awful.  I'm gonna smack Yuri upside the head."
+generic2:"When are you gonna return the favor, by the way?  I don't work for free!"
+generic2:"Y'know, I have your orgasm right in my hands.[power2]"
+power2:"I could give you blueballs at any time I want.[power3]"
+power2:"[CLOSE_EYES]Feels good to have power for once![OPEN_EYES]"
+
+generic3:"God yes, god yes, god yes!"
+generic3:"You better keep fucking going!  Did I ask for you to stop?"
+generic3:"I was fucking maaaade for this!"
+generic3:"Dad, you fucking slimy creature, thank you for raising me to experience this!"
+generic3:"Quick, quick!  Get it back in my mouth!"
+
